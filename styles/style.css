@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+main hr{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
